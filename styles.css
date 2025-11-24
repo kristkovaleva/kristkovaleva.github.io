@@ -139,7 +139,6 @@ body {
 }
 
 .skill-icon-item img {
-    
     width: 32px;
     height: 32px;
 }
@@ -736,12 +735,19 @@ body {
     }
 
     .skills-compact-grid {
-        grid-template-columns: repeat(5, 1fr);
+        grid-template-columns: repeat(4, 1fr);
         gap: 6px;
     }
 
+    .skills-compact, .languages-header {
+        border-top: none;
+    }
+
+    .language-row span{
+        margin-right: 8px;
+    }
+
     .skill-icon-item {
-        width: 28px;
         height: 28px;
     }
 }
